@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+# Nuxt 3 Image Optimization - Cloudflare Test
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este projeto tem como objetivo testar e validar a otimização de imagens usando **Nuxt 3**, o módulo **@nuxt/image-edge** e a integração com o **Cloudflare Image Resizing**.
 
-## Setup
+## 🚀 Objetivo do Projeto
+1. Testar o funcionamento do NuxtImage para servir imagens otimizadas (formatos modernos como `webp` e `avif`).
+2. Medir a diferença de peso e performance antes e depois de usar Cloudflare.
+3. Validar comportamento de cache e entrega de imagens em diferentes resoluções.
 
-Make sure to install dependencies:
+---
+
+## 🛠️ Setup do Projeto
+
+### Instalação
 
 ```bash
-# npm
+npx nuxi init nuxt-cf-test
+cd nuxt-cf-test
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
