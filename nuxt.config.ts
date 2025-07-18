@@ -6,5 +6,14 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/image', '@nuxt/ui', '@vueuse/nuxt'],
 
+  image: {
+    cloudflare: {
+      baseURL: 'https://nuxt-cf-cache.danielpagani.com.br/',
+      quality: 80,
+      format: ['webp'],
+      domains: ['nuxt-cf-cache.danielpagani.com.br'],
+    },
+  },
+
   ssr: false,
 });
